@@ -11,7 +11,7 @@ const Switch = ({ toggle }) => {
       checked={title === 'dark'}
       checkedIcon={false}
       uncheckedIcon={false}
-      height={10}
+      height={20}
       width={40}
       handleDiameter={20}
       offColor="#f3f3f3"

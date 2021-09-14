@@ -1,22 +1,26 @@
 import React from 'react'
 import { useTheme } from '../../hooks/theme'
 
-import Language from '../../components/Language'
-import Switch from '../../components/Switch'
+import { Button, Switch, Language } from '../../components'
 
-import { Wrapper } from './styles'
+import { Container, TopBar, Wrapper, Space } from './styles'
 
 const Home = () => {
   const { toggleTheme } = useTheme()
   return (
-    <Wrapper>
-      <div>
+    <Container>
+      <TopBar>
         <Switch toggle={toggleTheme} />
-      </div>
-      <div>
         <Language />
-      </div>
-    </Wrapper>
+      </TopBar>
+      
+      <Wrapper>
+        <Button variant="primary">Botão</Button> 
+        <br />
+        <Button variant="secondary">Botão</Button>  
+      </Wrapper>
+      
+    </Container>
   )
 }
 

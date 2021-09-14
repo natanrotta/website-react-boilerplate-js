@@ -14,9 +14,13 @@ const theme = {
     //Buttons
     buttonPrimary: '#7238b8',
     buttonPrimaryHover: '#9357d6',
-    buttonPrimaryBorder: '#7238b8',
     buttonPrimaryLabel: '#fff',
 
+    buttonSecondaryHover: '#532494',
+    buttonSecondaryBorder: '#371368',
+    buttonSecondaryLabel: '#371368',
+    buttonSecondaryLabelHover: '#fff',
+    
     //Gray
     gray: 'gray',
     grayLight: '#d3d3d3',

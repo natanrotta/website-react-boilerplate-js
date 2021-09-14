@@ -8,6 +8,7 @@ export const Container = styled.div`
 export const Flag = styled.img`
   width: 30px;
   height: 30px;
+  object-fit: fill;
   border-radius: 20px;
   cursor: pointer;
   margin-right: 10px;
